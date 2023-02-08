@@ -1,6 +1,6 @@
 function letterCombinations(input_digit) {
   //Complete the function
-	if (!digits.length) return [];
+	 if (!digits.length) return [];
   
   const mapping = ['0', '1', 'abc', 'def', 'ghi', 'jkl', 'mno', 'pqrs', 'tuv', 'wxyz'];
   let result = [''];
@@ -17,6 +17,6 @@ function letterCombinations(input_digit) {
   }
   
   return result;
-}
+};
 
 module.exports = letterCombinations;
